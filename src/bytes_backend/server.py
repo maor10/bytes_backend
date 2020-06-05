@@ -1,7 +1,6 @@
+from bytes_backend.decorators import bytes_response
+from bytes_backend.orm.db import connect_to_db
 from flask import Flask
-
-from src.bytes_backend.decorators import bytes_response
-from src.bytes_backend.orm.db import connect_to_db
 
 app = Flask(__name__)
 
